@@ -1,95 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Abhijit Behera - DevOps Engineer</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 800px;
-            margin: auto;
-            background: white;
-            padding: 2rem;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            margin-top: 50px;
-        }
-
-        h1 {
-            color: #333;
-        }
-
-        .section {
-            margin-bottom: 30px;
-        }
-
-        .contact {
-            font-size: 0.95rem;
-            color: #555;
-        }
-
-        .title {
-            font-weight: bold;
-            font-size: 1.2rem;
-            margin-top: 10px;
-        }
-
-        .divider {
-            border-bottom: 2px solid #ddd;
-            margin: 20px 0;
-        }
-
-        ul {
-            padding-left: 20px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abhijit Behera | DevOps Engineer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f8fb;
+      color: #2c3e50;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #2d98da;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 0.5rem 0 0;
+    }
+    section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    h2 {
+      color: #2d98da;
+      border-bottom: 2px solid #d1d8e0;
+      padding-bottom: 0.3rem;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 1.5rem;
+    }
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    input, textarea {
+      padding: 0.6rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+      width: 100%;
+    }
+    button {
+      background-color: #2d98da;
+      color: white;
+      padding: 0.7rem 1.2rem;
+      border: none;
+      border-radius: 4px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #227093;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #d1d8e0;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Abhijit Behera</h1>
-        <p class="contact">Email: <a href="mailto:abhijitbehera304@gmail.com">abhijitbehera304@gmail.com</a></p>
+  <header>
+    <h1>Abhijit Behera</h1>
+    <p>Accomplished DevOps Engineer with 4 years of experience</p>
+    <p>Email: <a style="color:white; text-decoration: underline;" href="mailto:abhijitbehera304@gmail.com">abhijitbehera304@gmail.com</a></p>
+  </header>
 
-        <div class="divider"></div>
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>CI/CD with Jenkins, GitHub Actions</li>
+      <li>Docker, Kubernetes</li>
+      <li>AWS (EC2, S3, IAM, RDS)</li>
+      <li>Monitoring with Prometheus & Grafana</li>
+      <li>Infrastructure as Code (Terraform)</li>
+    </ul>
+  </section>
 
-        <div class="section">
-            <div class="title">Professional Summary</div>
-            <p>Accomplished DevOps Engineer with 4 years of experience in automating, optimizing, and maintaining mission-critical deployments in production environments. Adept at implementing CI/CD pipelines, managing cloud infrastructure, and improving deployment efficiency and reliability.</p>
-        </div>
+  <section>
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Netflix Clone CI/CD Pipeline</strong> - Automated deployment using Jenkins and AWS S3</li>
+      <li><strong>Monitoring Stack Setup</strong> - Deployed Prometheus and Grafana for infrastructure metrics</li>
+      <li><strong>Containerized Java App</strong> - Built Docker images and deployed using Kubernetes</li>
+    </ul>
+  </section>
 
-        <div class="section">
-            <div class="title">Skills</div>
-            <ul>
-                <li>CI/CD with Jenkins, GitHub Actions</li>
-                <li>Docker & Kubernetes</li>
-                <li>AWS (EC2, S3, IAM, RDS, CloudFormation)</li>
-                <li>Infrastructure as Code: Terraform, Ansible</li>
-                <li>Monitoring: Prometheus, Grafana</li>
-                <li>Linux Server Management & Shell Scripting</li>
-            </ul>
-        </div>
+  <section>
+    <h2>Certifications</h2>
+    <ul>
+      <li>AWS Certified Solutions Architect – Associate</li>
+      <li>Certified Kubernetes Administrator (CKA)</li>
+      <li>HashiCorp Certified: Terraform Associate</li>
+    </ul>
+  </section>
 
-        <div class="section">
-            <div class="title">Experience</div>
-            <p><strong>DevOps Engineer</strong><br>
-            ABC Tech Solutions, 2019 - Present</p>
-            <ul>
-                <li>Designed and implemented CI/CD pipelines for multiple microservices using Jenkins and Docker.</li>
-                <li>Managed AWS infrastructure using Terraform and configured high-availability environments.</li>
-                <li>Worked closely with developers to containerize applications and deploy using Kubernetes.</li>
-                <li>Implemented centralized logging and monitoring using ELK Stack and Prometheus-Grafana.</li>
-            </ul>
-        </div>
+  <section>
+    <h2>Contact Form</h2>
+    <form class="contact">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
 
-        <div class="section">
-            <div class="title">Education</div>
-            <p>Bachelor of Technology (B.Tech) in Computer Science</p>
-        </div>
-    </div>
+  <section>
+    <h2>Download Resume</h2>
+    <p><a href="resume.pdf" download>Click here to download PDF version</a></p>
+  </section>
+
+  <footer>
+    &copy; 2025 Abhijit Behera
+  </footer>
 </body>
 </html>
