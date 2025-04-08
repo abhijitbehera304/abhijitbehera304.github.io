@@ -3,224 +3,196 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhijit Behera | Portfolio</title>
+    <title>Abhijit Behera's Portfolio</title>
     <style>
-        /* General reset */
-        * {
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #121212; /* Dark background */
-            color: #fff; /* Light text color */
-            line-height: 1.6;
+            background-color: #f4f7fc;
+            color: #333;
         }
 
         header {
-            background-color: #1d1f20; /* Slightly lighter dark background */
-            padding: 50px 0;
+            background-color: #34495e; /* Dark blue background */
+            color: white;
+            padding: 40px;
             text-align: center;
         }
 
         header h1 {
-            font-size: 3em;
-            color: #00bcd4; /* Teal for the header text */
-            margin-bottom: 10px;
+            margin: 0;
+            font-size: 2.5em;
         }
 
         header p {
-            font-size: 1.2em;
-            color: #fff;
+            font-size: 1.1em;
         }
 
         header a {
-            color: #ff4081; /* Bright accent color for links */
+            color: #ecf0f1;
             text-decoration: none;
-            font-weight: bold;
         }
 
-        .container {
-            width: 90%;
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .section {
-            background-color: #1a1a1a; /* Dark background for sections */
-            margin: 30px 0;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        .contact-info, .section {
+            margin: 40px 10%;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
         }
 
         .section-title {
-            color: #00bcd4; /* Teal title */
-            font-size: 2em;
+            color: #3498db; /* Blue color for section titles */
+            font-size: 1.6em;
             margin-bottom: 20px;
         }
 
-        .section p, .section ul {
+        .section p {
             font-size: 1.1em;
         }
 
         ul {
-            list-style: none;
+            list-style-type: none;
+            padding: 0;
         }
 
-        ul li {
-            margin: 10px 0;
+        li {
+            font-size: 1.1em;
+            margin-bottom: 10px;
         }
 
         .skills-list li, .experience-item ul li {
-            background-color: #2c2f33; /* Dark background for list items */
+            background-color: #ecf0f1;
             padding: 8px;
             margin: 6px 0;
-            border-radius: 5px;
-            font-size: 1.1em;
-        }
-
-        .experience-item {
-            margin-bottom: 30px;
+            border-radius: 4px;
         }
 
         .experience-item h3 {
-            color: #ff4081; /* Pink accent color for job titles */
-            font-size: 1.4em;
-            margin-bottom: 5px;
+            color: #2980b9; /* Lighter blue for job titles */
         }
 
         .role-summary {
             font-style: italic;
-            color: #bbb; /* Light gray for role summaries */
+            color: #7f8c8d;
             margin-bottom: 15px;
         }
 
         .experience-item ul li {
             font-size: 1em;
-            background-color: #383838;
+            background-color: #f9f9f9;
             padding: 8px;
-            border-left: 5px solid #00bcd4; /* Teal left border */
+            border-left: 5px solid #3498db; /* Blue left border for experience items */
         }
 
-        .footer {
-            background-color: #1d1f20;
-            color: #fff;
+        footer {
+            background-color: #34495e; /* Dark blue footer */
+            color: white;
+            padding: 20px;
             text-align: center;
-            padding: 20px 0;
-            margin-top: 50px;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                width: 100%;
-                padding: 0 10px;
-            }
-
-            header h1 {
-                font-size: 2.2em;
-            }
-
-            header p {
-                font-size: 1em;
-            }
-
-            .section-title {
-                font-size: 1.6em;
-            }
+        footer p {
+            font-size: 0.9em;
+            margin: 0;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <div class="container">
-        <h1>Abhijit Behera</h1>
-        <p>Email: <a href="mailto:abhijitbehera304@gmail.com">abhijitbehera304@gmail.com</a> | Mobile: 9090865999</p>
-    </div>
+    <h1>Abhijit Behera</h1>
+    <p>Email: <a href="mailto:abhijitbehera304@gmail.com">abhijitbehera304@gmail.com</a> | Mobile: 9090865999</p>
 </header>
 
-<div class="container">
-    <section class="section">
-        <h2 class="section-title">Career Aspiration</h2>
-        <p>I am an accomplished DevOps Engineer with 4 years of experience in implementing large-scale DevOps practices using open-source tools to accelerate application deployment cycles and ensure high application uptime through a stable, self-healing infrastructure.</p>
-    </section>
+<section class="contact-info">
+    <h2 class="section-title">Career Aspiration</h2>
+    <p>Accomplished DevOps Engineer with 4 years of experience in designing and implementing large-scale DevOps practices using open-source tools to accelerate application deployment cycles and ensure high application uptime through a stable, self-healing infrastructure.</p>
+</section>
 
-    <section class="section">
-        <h2 class="section-title">Professional Summary</h2>
+<section class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <ul>
+        <li>Experience working with various CI/CD implementations involving different phases from code compilation to deployment, environment management, and maintenance.</li>
+        <li>Extensive experience working with Linux (Ubuntu & RedHat) operating systems.</li>
+        <li>Hands-on experience with Infrastructure as Code (IaC) using Terraform.</li>
+        <li>Automated infrastructure deployment using Jenkins pipelines.</li>
+        <li>Worked on Terraform Cloud for provisioning infrastructure.</li>
+        <li>Hands-on knowledge in Kubernetes (EKS, scheduling, services, namespaces, volumes, etc.).</li>
+        <li>Experience with Docker containerization and Docker Swarm.</li>
+        <li>Experience with configuration management using Ansible.</li>
+        <li>Experience with monitoring services like Prometheus, Grafana, and CloudWatch.</li>
+    </ul>
+</section>
+
+<section class="section">
+    <h2 class="section-title">Skills</h2>
+    <ul class="skills-list">
+        <li>Maintenance and troubleshooting</li>
+        <li>IT solution development</li>
+        <li>Security best practices</li>
+        <li>Developer collaboration</li>
+        <li>Continuous integration</li>
+        <li>Version control systems</li>
+        <li>Continuous deployment</li>
+        <li>Build releases</li>
+        <li>Virtualization</li>
+        <li>Infrastructure automation</li>
+        <li>Linux operating system</li>
+        <li>Monitoring and logging</li>
+        <li>Containerization technologies</li>
+    </ul>
+</section>
+
+<section class="section">
+    <h2 class="section-title">Work Experience</h2>
+    <div class="experience-item">
+        <h3>DevOps Engineer | Mphasis Limited</h3>
+        <p><strong>Client:</strong> Wells Fargo | <strong>Cloud Environment:</strong> AWS | <strong>Duration:</strong> March 2024 - February 2025</p>
+        <p class="role-summary">The Wealth and Investment Management Technology (WIMT) project focused on enhancing technological infrastructure to improve efficiency, security, and compliance for financial services.</p>
         <ul>
-            <li>Experienced in CI/CD implementations from code compilation to deployment and maintenance.</li>
-            <li>Hands-on experience with Linux (Ubuntu & RedHat), Terraform, Jenkins, Docker, Kubernetes, and AWS.</li>
-            <li>Proficient in Infrastructure as Code (IaC) using Terraform and AWS CloudFormation.</li>
-            <li>Worked extensively on Docker containerization and Kubernetes for scalable infrastructure management.</li>
-            <li>Experience with CI/CD pipelines using Jenkins, integrated with Maven, Nexus, and Ansible.</li>
-            <li>Knowledge in working with monitoring tools such as Prometheus, Grafana, and CloudWatch.</li>
+            <li>Created Dockerfiles based on developer requirements.</li>
+            <li>Built custom images for deployment in Kubernetes clusters.</li>
+            <li>Automated Kubernetes deployment with manifest files and Helm.</li>
+            <li>Managed AWS resources using Terraform (EC2, S3, VPC, IAM, etc.).</li>
+            <li>Monitored clusters with Prometheus and Grafana.</li>
         </ul>
-    </section>
-
-    <section class="section">
-        <h2 class="section-title">Skills</h2>
-        <ul class="skills-list">
-            <li>CI/CD Automation</li>
-            <li>Docker & Kubernetes</li>
-            <li>Infrastructure Automation (Terraform, CloudFormation)</li>
-            <li>Cloud Computing (AWS, GCP, Azure)</li>
-            <li>Linux Administration</li>
-            <li>Version Control (Git, GitHub)</li>
-            <li>Monitoring (Prometheus, Grafana, CloudWatch)</li>
-            <li>Configuration Management (Ansible)</li>
-        </ul>
-    </section>
-
-    <section class="section">
-        <h2 class="section-title">Work Experience</h2>
-
-        <div class="experience-item">
-            <h3>DevOps Engineer | Mphasis Limited</h3>
-            <p><strong>Client:</strong> Wells Fargo | <strong>Cloud Environment:</strong> AWS | <strong>Duration:</strong> March 2024 - February 2025</p>
-            <p class="role-summary">The WIMT project focused on enhancing technological infrastructure to improve efficiency and security for wealth management services.</p>
-            <ul>
-                <li>Automated Kubernetes deployments using Helm and manifest files.</li>
-                <li>Created custom Docker images and optimized them for deployment in Kubernetes clusters.</li>
-                <li>Integrated monitoring solutions (Prometheus, Grafana) for real-time performance tracking.</li>
-                <li>Managed AWS resources using Terraform (EC2, S3, IAM, VPC).</li>
-            </ul>
-        </div>
-
-        <div class="experience-item">
-            <h3>Senior Software Engineer | Subex Limited</h3>
-            <p><strong>Client:</strong> Telecom Egypt | <strong>Cloud:</strong> AWS | <strong>Duration:</strong> August 2022 - February 2024</p>
-            <p class="role-summary">The project aimed to modernize Telecom Egypt's infrastructure to enhance scalability and reliability using DevOps principles.</p>
-            <ul>
-                <li>Worked with Jenkins, Ansible, and Terraform to automate and manage deployment processes.</li>
-                <li>Integrated CI/CD pipelines to streamline application deployment and testing.</li>
-                <li>Managed AWS resources and services like EC2, S3, IAM, VPC.</li>
-            </ul>
-        </div>
-
-        <div class="experience-item">
-            <h3>Software Engineer | Aumsys Technologies Private Limited</h3>
-            <p><strong>Client:</strong> Citi Bank | <strong>Cloud Environment:</strong> AWS | <strong>Duration:</strong> January 2021 - August 2022</p>
-            <p class="role-summary">This project focused on building a banking customer care management system, emphasizing high availability and infrastructure reliability.</p>
-            <ul>
-                <li>Deployed applications in Tomcat servers and managed server configurations using Ansible.</li>
-                <li>Automated backup processes and system monitoring with Splunk and Grafana.</li>
-                <li>Managed AWS infrastructure using Terraform for automation and provisioning.</li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="section">
-        <h2 class="section-title">Education</h2>
+    </div>
+    
+    <div class="experience-item">
+        <h3>Senior Software Engineer | Subex Limited</h3>
+        <p><strong>Client:</strong> Telecom Egypt | <strong>Cloud:</strong> AWS | <strong>Duration:</strong> August 2022 - February 2024</p>
+        <p class="role-summary">This project aimed to modernize Telecom Egypt’s infrastructure, improving scalability, reliability, and deployment efficiency using DevOps practices.</p>
         <ul>
-            <li>Bachelor of Technology in Mechanical Engineering, Biju Patnaik University of Technology, Rourkela, Odisha | Graduated: July 2018</li>
+            <li>Deployed end products in Tomcat and other application servers.</li>
+            <li>Automated deployment and integration with Jenkins and Ansible.</li>
+            <li>Implemented continuous integration pipelines and backup solutions for production environments.</li>
+            <li>Managed AWS services (EC2, S3, IAM, VPC) using Terraform.</li>
         </ul>
-    </section>
-</div>
+    </div>
 
-<footer class="footer">
+    <div class="experience-item">
+        <h3>Software Engineer | Aumsys Technologies Private Limited</h3>
+        <p><strong>Client:</strong> Citi Bank | <strong>Cloud Environment:</strong> AWS | <strong>Duration:</strong> January 2021 - August 2022</p>
+        <p class="role-summary">The project focused on improving the reliability and deployment infrastructure of a banking customer care management system.</p>
+        <ul>
+            <li>Deployed end products in Tomcat servers and monitored services using Splunk and Grafana.</li>
+            <li>Automated deployment processes and backups of production systems.</li>
+            <li>Managed AWS services and infrastructure using Terraform.</li>
+        </ul>
+    </div>
+</section>
+
+<section class="section">
+    <h2 class="section-title">Education</h2>
+    <ul>
+        <li>Bachelor of Technology in Mechanical Engineering, Biju Patnaik University of Technology, Rourkela, Odisha (Graduated: July 2018)</li>
+    </ul>
+</section>
+
+<footer>
     <p>&copy; 2025 Abhijit Behera | All Rights Reserved</p>
 </footer>
 
